@@ -51,6 +51,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--main-p-color);
 }
+img {
+  display: block;
+}
 
 .link {
   text-decoration: none;
@@ -72,10 +75,6 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-img {
-  display: block;
 }
 
 .section {
@@ -216,6 +215,17 @@ header .container {
 }
 
 /*------------Box---------*/
+
+.list-box {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-items > li:not(:last-child) {
+  margin-right: 30px;
+}
+
 .title-box,
 .title-team {
   font-size: 36px;
