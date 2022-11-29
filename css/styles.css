@@ -191,11 +191,18 @@ header .container {
 
 /*------------feature---------*/
 .section-feature {
-  display: flex;
-  flex-wrap: wrap;
   background-color: var(--main-white-color);
 }
+.section-list {
+  display: flex;
+}
+
+.section-items > li:not(:last-child) {
+  margin-right: 30px;
+}
+
 .main-title {
+  margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
