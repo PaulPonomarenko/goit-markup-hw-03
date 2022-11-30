@@ -252,7 +252,7 @@ header .container {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-h-color);
@@ -261,7 +261,7 @@ header .container {
 .desc-work {
   margin-bottom: 30px;
   font-size: 16px;
-  line-height: 1.87;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-p-color);
@@ -269,9 +269,13 @@ header .container {
 
 .team-items {
   background-color: var(--main-white-color);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*--------------Footer----------------*/
+.footer-cont {
+  display: flex;
+}
 
 .footer-logo {
   font-family: 'Raleway';
@@ -281,6 +285,7 @@ header .container {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-white-color);
+  padding-top: 60px;
 }
 
 .address {
