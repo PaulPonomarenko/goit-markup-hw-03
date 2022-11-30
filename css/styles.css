@@ -53,6 +53,7 @@ body {
 }
 img {
   display: block;
+  max-width: 100%;
 }
 
 .link {
@@ -325,7 +326,20 @@ header .container {
 .section-menu {
   background-color: var(--main-white-color);
 }
+
+.buttons-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.buttons-list > li:not(:last-child) {
+  margin-right: 8px;
+}
 .button-menu {
+  border: none;
+  border-radius: 4px;
+  padding: 6px 22px;
+  margin-bottom: 50px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
