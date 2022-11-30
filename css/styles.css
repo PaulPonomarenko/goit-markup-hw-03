@@ -274,10 +274,11 @@ header .container {
 
 /*--------------Footer----------------*/
 .footer-cont {
-  display: flex;
+  display: block;
 }
 
 .footer-logo {
+  display: block;
   font-family: 'Raleway';
   font-weight: 700;
   font-size: 26px;
@@ -286,14 +287,25 @@ header .container {
   text-decoration: none;
   color: var(--main-white-color);
   padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .address {
+  margin-top: 20px;
+  font-style: normal;
+}
+.address-footer {
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--main-white-color);
-  font-style: normal;
+  padding-bottom: 9px;
+}
+.list-footer > li:not(:last-child) {
+  padding-bottom: 9px;
+}
+.list-footer > li:last-child {
+  padding-bottom: 60px;
 }
 
 .footer-contact {
