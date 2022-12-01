@@ -338,6 +338,7 @@ header .container {
   display: flex;
   justify-content: center;
   list-style: none;
+  margin-bottom: 50px;
 }
 .buttons-list > li:not(:last-child) {
   margin-right: 8px;
@@ -346,7 +347,6 @@ header .container {
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
-  margin-bottom: 50px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -381,16 +381,18 @@ header .container {
   margin-right: 0;
 }
 .section-title {
-  margin: 20px 24px 4px 24px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-h-color);
+  margin-bottom: 4px;
 }
 .section-post {
-  margin: 4px 24px 20px 24px;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-link-color);
+}
+.about {
+  padding: 20px 24px;
 }
