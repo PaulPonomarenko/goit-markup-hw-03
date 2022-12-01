@@ -154,6 +154,7 @@ header .container {
 .hero {
   background-color: var(--main-bg-color);
   text-align: center;
+  padding: 200px 0;
 }
 
 .title {
@@ -166,10 +167,7 @@ header .container {
   margin: 0 auto;
   max-width: 700px;
 }
-.hero-cont {
-  display: block;
-  padding: 200px 0;
-}
+
 .hero-btn {
   margin-top: 35px;
   padding: 10px 32px;
@@ -220,6 +218,9 @@ header .container {
 }
 
 /*------------Box---------*/
+.section-box {
+  padding-bottom: 94px;
+}
 
 .list-box {
   margin-top: 50px;
@@ -245,6 +246,7 @@ header .container {
 .section-team {
   background-color: var(--white-bg-color);
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .list-team {
@@ -253,7 +255,6 @@ header .container {
   justify-content: space-between;
 }
 .title-name {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -264,7 +265,6 @@ header .container {
 }
 
 .desc-work {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -276,10 +276,19 @@ header .container {
   background-color: var(--main-white-color);
   border-radius: 0px 0px 4px 4px;
 }
+.our-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
 /*--------------Footer----------------*/
 .footer-cont {
   display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.address-cont {
+  padding-top: 20px;
 }
 
 .footer-logo {
@@ -291,13 +300,9 @@ header .container {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--main-white-color);
-  padding-top: 60px;
-  padding-bottom: 20px;
 }
 
 .address {
-  margin-top: 20px;
-  padding-bottom: 60px;
   font-style: normal;
 }
 .address-footer {
